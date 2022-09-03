@@ -11,7 +11,6 @@ class ExplicitIntent : AppCompatActivity() {
         setContentView(R.layout.activity_explicit_intent)
 
         ambilData()
-        ambilDataBundle()
     }
 
     fun ambilData(){
@@ -19,11 +18,5 @@ class ExplicitIntent : AppCompatActivity() {
         var dataDua = intent.getStringExtra("input2")
         txtInput1.text = dataSatu
         txtInput2.text = dataDua
-    }
-
-    fun ambilDataBundle(){
-        var bun = intent.extras
-        txtInput1.setText(bun!!.getString("satu"))
-        txtInput2.setText(bun!!.getString("dua"))
     }
 }

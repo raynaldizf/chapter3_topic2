@@ -41,5 +41,21 @@
 
 
         />
+    <Button
+        android:id="@+id/btnSerializeAble"
+        android:layout_below="@id/btnBundleIntent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Serializeable"
+
+        />
+    <Button
+        android:id="@+id/btnParcelAble"
+        android:layout_below="@id/btnSerializeAble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Parcelable"
+
+        />
 
 </RelativeLayout>
